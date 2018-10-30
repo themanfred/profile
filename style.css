@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(150 150 150);
+  font-family:'Open Sans Condensed', sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 1em;
+}
+h1,h2,h3,h4 {
+  font-family: 'Roboto', cursive;
+  color: white;
+}
+h1 {
+  font-size: 100px;
+  line-height: 0.5em;
+}
+h2 {
+  font-size: 35px;
+  line-height: 1.8em;
+}
+h3 {
+  font-size: 50px;
+  line-height: 1.6em;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 38px;
+}
+a{
+  color: #084443;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+.card {
+  background: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.text-center {
+  text-align: center;
+}
+div {
+    display: block;
+}
+.container {
+  margin: 0 auto;
+}
+
+#profile_pic {
+  width: 150px;
+  height: 150px
+}
+.round_image {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.list_in_line {
+  padding: 0;
+}
+.list-in_line > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.recipe_image {
+  padding: 5px 20px 5px 5px;
+}
+.btn-blue {
+    background-color: #688e8c;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.btn-blue:hover {
+  background-color: #a7c4c2;
+  color: white;
+}
+.btn-blue:active {
+  border: 1px solid #a7c4c2;
+}
+
+#footer {
+
+  background-image: url("https://picsum.photos/1000/300?random");
+  background-size: cover;
+  text-align: horizontal;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+
+}
